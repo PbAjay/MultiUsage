@@ -41,11 +41,11 @@
 
 ## ᴅᴇᴘʟᴏʏᴍᴇɴᴛs
 
-## ʜᴇʀᴏᴋᴜ
+
 </h3>
 <details>
 <summary><h3>
-- <b>  ᴅᴇᴩʟᴏʏ ᴏɴ ʜᴇʀᴏᴋᴜ </b>
+- <b>  ʜᴇʀᴏᴋᴜ </b>
 </h3></summary>
 
 <a href="https://dashboard.heroku.com/new?template=https://github.com/PbAjay/MultiUsage"> <img src="https://img.shields.io/badge/Deploy%20On%20Heroku-black?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a>
