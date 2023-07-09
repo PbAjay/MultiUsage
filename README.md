@@ -39,18 +39,16 @@
 
 ● ᴄᴀʀʙᴏɴ
 
-<p align="center">
-<b>ᴡᴀʏs ᴛᴏ ᴅᴇᴘʟᴏʏ</b>
-</p>
+## ᴅᴇᴘʟᴏʏᴍᴇɴᴛs
 
-## ─「 ᴅᴇᴩʟᴏʏ ᴏɴ ʜᴇʀᴏᴋᴜ 」─
+## ʜᴇʀᴏᴋᴜ
 </h3>
 <details>
 <summary><h3>
 - <b>  ᴅᴇᴩʟᴏʏ ᴏɴ ʜᴇʀᴏᴋᴜ </b>
 </h3></summary>
 
-<p align="center"><a href="https://dashboard.heroku.com/new?template=https://github.com/PbAjay/MultiUsage"> <img src="https://img.shields.io/badge/Deploy%20On%20Heroku-black?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
+<a href="https://dashboard.heroku.com/new?template=https://github.com/PbAjay/MultiUsage"> <img src="https://img.shields.io/badge/Deploy%20On%20Heroku-black?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a>
 
 
 </details>
