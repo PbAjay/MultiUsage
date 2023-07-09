@@ -1,0 +1,56 @@
+{
+    "name": "MultiUsage",
+    "description": "Multi Usage Bot Have Many Feature ",
+    "repository": "https://github.com/PbAjay/MultiUsage",
+    "logo": "https://graph.org/file/2957b101e831fa7b0aa11.jpg",
+    "stack": "container",
+    "keywords": ["tgbot", "multibot", "telegram bot"],
+    "env": {        
+        "API_ID": {
+            "description": "Your API_ID from https://my.telegram.org/apps",
+            "value": "",
+            "required": true
+        },
+        "API_HASH": {
+            "description": "Your API_HASH from https://my.telegram.org/apps",       
+            "value": "",
+            "required": true
+        },
+        "BOT_TOKEN": {
+            "description": "Your Bot token from @Botfather",
+            "value": "",
+            "required": true
+        },
+        "FORCE_SUB": {
+            "description": "Your Force Subscribe Channel username without @  ex:- mkn_bots_updates.",       
+            "required": false
+        },
+        "DB_URL": {
+            "description": "Your database url from mongodb",
+            "required": true
+        },
+        "ADMIN": {
+            "description": "Your telagram user id to control this bot eg:- 5781982",
+            "required": true
+        },
+        "LOG_CHANNEL": {
+            "description": "A new private or public channel bot make Shure admin in that channel",
+            "required": false
+        },
+        "PICS": {
+            "description": "Add some telegraph link of pictures do to shown in the start message. multiple pics use 1 space to split the image",
+            "required": false
+        }
+
+    },
+    "addons": [],
+    "buildpacks": [{
+        "url": "heroku/python"
+    }],
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "eco"
+        }
+    }
+}
