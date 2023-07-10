@@ -1,5 +1,5 @@
 from pyrogram import Client
-from variables import *
+from info import *
 from aiohttp import web
 from route import web_server
 
