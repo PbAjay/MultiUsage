@@ -75,18 +75,24 @@ async def callback(client: Client, query: CallbackQuery):
        buttons = [[
            InlineKeyboardButton("⏮️ ʙᴀᴄᴋ", callback_data="help"),
            InlineKeyboardButton("🔒 ᴄʟᴏꜱᴇ", callback_data="close")
-       ]]              
+       ]]               
+       await query.message.edit(
+           text=tg.LOGO,
+           reply_markup=InlineKeyboardMarkup(buttons),
+           disable_web_page_preview = True,
+           parse_mode=enums.ParseMode.HTML     
+       )                 
      elif query.data == "lyrics":
        buttons = [[
            InlineKeyboardButton("⏮️ ʙᴀᴄᴋ", callback_data="help"),
            InlineKeyboardButton("🔒 ᴄʟᴏꜱᴇ", callback_data="close")
-       ]]              
+       ]]               
        await query.message.edit(
            text=tg.LYRICS,
            reply_markup=InlineKeyboardMarkup(buttons),
            disable_web_page_preview = True,
-           parse_mode=enums.ParseMode.HTML   
-       )    
+           parse_mode=enums.ParseMode.HTML     
+       )           
     elif query.data == "tgraph":
        buttons = [[
            InlineKeyboardButton("⏮️ ʙᴀᴄᴋ", callback_data="help"),
