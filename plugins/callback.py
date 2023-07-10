@@ -82,7 +82,7 @@ async def callback(client: Client, query: CallbackQuery):
            disable_web_page_preview = True,
            parse_mode=enums.ParseMode.HTML     
        )                 
-     elif query.data == "lyrics":
+    elif query.data == "lyrics":
        buttons = [[
            InlineKeyboardButton("⏮️ ʙᴀᴄᴋ", callback_data="help"),
            InlineKeyboardButton("🔒 ᴄʟᴏꜱᴇ", callback_data="close")
