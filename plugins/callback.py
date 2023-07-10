@@ -25,8 +25,8 @@ async def callback(client: Client, query: CallbackQuery):
        await query.message.edit(
            text = tg.STAT.format(query.from_user.mention),        
            reply_markup=InlineKeyboardMarkup( [[
-               InlineKeyboardButton("🍁 ꜱᴜᴩᴩᴏʀᴛ", url="https://t.me/BETA_SUPPORT"),
-               InlineKeyboardButton("📯 ᴜᴩᴅᴀᴛᴇꜱ", url="https://t.me/Beta_BoTZ")
+               InlineKeyboardButton("📯 ᴜᴩᴅᴀᴛᴇꜱ", url="https://t.me/MLZ_BOTZ"),
+               InlineKeyboardButton("🍁 ꜱᴜᴩᴩᴏʀᴛ ", url="https://t.me/MLZ_BOTZ_SUPPORT")
                ],[            
                InlineKeyboardButton("ℹ️ ʜᴇʟᴩ", callback_data="help"),
                InlineKeyboardButton("📡 ᴀʙᴏᴜᴛ", callback_data="about") 
@@ -51,9 +51,6 @@ async def callback(client: Client, query: CallbackQuery):
             ],[
             InlineKeyboardButton('ᴄᴀʀʙᴏɴ', callback_data='carben'),
             InlineKeyboardButton('ꜰᴜɴ ɢᴀᴍᴇ', callback_data='fun')                      
-            ],[
-            InlineKeyboardButton('❤️‍🔥 ꜱᴏᴜʀᴄᴇ', callback_data='source'),
-            InlineKeyboardButton('📡 ᴀʙᴏᴜᴛ', callback_data='about')
             ],[
             InlineKeyboardButton('⏮️ ʙᴀᴄᴋ', callback_data='start'),           
         ]]
@@ -198,7 +195,7 @@ async def callback(client: Client, query: CallbackQuery):
            parse_mode=enums.ParseMode.HTML        
        )            
     elif query.data == "source":
-       users = await get("https://api.github.com/repos/Itz-JEOL/TG-MULTI-BOT/contributors")
+       users = await get("https://t.me/MLZ_BOTZ")
        list_of_users = ""
        count = 1
        for user in users:
