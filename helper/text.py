@@ -5,15 +5,14 @@ I'am A Multi use Bot with many usefull features.
 Eg:- Telegarph, Channel ID, Image editor etc... """
 
     ABT = """ 
-╔════❰ 𝙼𝚄𝙻𝚃𝙸 𝙱𝙾𝚃 ❱═❍
+╔════❰ ᴍᴜʟᴛɪ ᴜsᴀɢᴇ ❱═❍
 ║╭━━━━━━━━━━━━━━━➣
-║┣⪼🤖ᴍʏ ɴᴀᴍᴇ : {bot}
-║┣⪼👦ᴅᴇᴠ 1 : <a href=https://t.me/about_jeol>ᴊᴇᴏʟ</a>
-║┣⪼👨‍💻ᴅᴇᴠ 2 : <a href=https://t.me/mr_MKN>ᴍʀ.ᴍᴋɴ ᴛɢ</a>
-║┣⪼❣️sᴏᴜʀᴄᴇ ᴄᴏᴅ : <a href=https://github.com/Itz-JEOL/TG-MULTI-BOT>ᴛɢ-ᴍᴜʟᴛɪ-ʙᴏᴛ</a>
-║┣⪼🗣️ʟᴀɴɢᴜᴀɢᴇ : <a href=https://www.python.org>ᴘʏᴛʜᴏɴ3</a>
-║┣⪼📚ʟɪʙʀᴀʀʏ : <a href=https://github.com/pyrogram>ᴘʏʀᴏɢʀᴀᴍ</a> 
-║┣⪼🗒️ᴠᴇʀsɪᴏɴ : 𝙼𝚄𝙻𝚃𝙸 𝙱𝙾𝚃 v3.0.1 
+║┣⪼🤖 ᴍʏ ɴᴀᴍᴇ : {bot}
+║┣⪼👦 ᴄʀᴇᴀᴛᴏʀ : <a href=https://t.me/MLZ_BOTZ>ᴛᴇᴀᴍ ᴍʟᴢ</a>
+║┣⪼👨‍💻 ᴅᴇᴠ : <a href=https://t.me/AJAYxTG>ᴀᴊᴀʏ ᠰ ᴛɢ</a>
+║┣⪼🗣️ ʟᴀɴɢᴜᴀɢᴇ : <a href=https://www.python.org>ᴘʏᴛʜᴏɴ 3</a>
+║┣⪼📚 ʟɪʙʀᴀʀʏ : <a href=https://github.com/pyrogram>ᴘʏʀᴏɢʀᴀᴍ</a> 
+║┣⪼🗒️ ᴠᴇʀsɪᴏɴ : ᴠ3.0.1 
 ║╰━━━━━━━━━━━━━━━➣
 ╚══════════════════❍ """
 
