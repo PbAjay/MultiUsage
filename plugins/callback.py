@@ -44,9 +44,11 @@ async def callback(client: Client, query: CallbackQuery):
             InlineKeyboardButton('yᴏᴜᴛᴜʙᴇ ᴅʟ', callback_data='ytdl')
             ],[
             InlineKeyboardButton('ᴩʜᴏᴛᴏ ᴛᴏᴏʟ', callback_data='phediter'),
-            InlineKeyboardButton('ᴩᴀꜱᴛᴇ ᴄᴏᴅᴇ', callback_data='paster')
+            InlineKeyboardButton('ʀᴇᴘᴏ', callback_data='repo'),
+            InlineKeyboardButton('ᴡʀɪᴛᴇ', callback_data='write')
             ],[
             InlineKeyboardButton('ꜱᴛɪᴄᴋᴇʀ ᴛᴏᴏʟ', callback_data='stickertool'),
+            InlineKeyboardButton('ᴜʀʟ sʜᴏʀᴛ', callback_data='url'),
             InlineKeyboardButton('ꜰᴏɴᴛ ꜱᴛyʟᴇ', callback_data='fontstyle')            
             ],[
             InlineKeyboardButton('ᴄᴀʀʙᴏɴ', callback_data='carben'),
@@ -82,6 +84,17 @@ async def callback(client: Client, query: CallbackQuery):
            disable_web_page_preview = True,
            parse_mode=enums.ParseMode.HTML     
        )                 
+    elif query.data == "url":
+       buttons = [[
+           InlineKeyboardButton("⏮️ ʙᴀᴄᴋ", callback_data="help"),
+           InlineKeyboardButton("🔒 ᴄʟᴏꜱᴇ", callback_data="close")
+       ]]               
+       await query.message.edit(
+           text=tg.URL,
+           reply_markup=InlineKeyboardMarkup(buttons),
+           disable_web_page_preview = True,
+           parse_mode=enums.ParseMode.HTML     
+       )                 
     elif query.data == "lyrics":
        buttons = [[
            InlineKeyboardButton("⏮️ ʙᴀᴄᴋ", callback_data="help"),
@@ -100,6 +113,28 @@ async def callback(client: Client, query: CallbackQuery):
        ]]               
        await query.message.edit(
            text=tg.TELE,
+           reply_markup=InlineKeyboardMarkup(buttons),
+           disable_web_page_preview = True,
+           parse_mode=enums.ParseMode.HTML     
+       )   
+    elif query.data == "repo":
+       buttons = [[
+           InlineKeyboardButton("⏮️ ʙᴀᴄᴋ", callback_data="help"),
+           InlineKeyboardButton("🔒 ᴄʟᴏꜱᴇ", callback_data="close")
+       ]]               
+       await query.message.edit(
+           text=tg.REPO,
+           reply_markup=InlineKeyboardMarkup(buttons),
+           disable_web_page_preview = True,
+           parse_mode=enums.ParseMode.HTML     
+       )   
+    elif query.data == "write":
+       buttons = [[
+           InlineKeyboardButton("⏮️ ʙᴀᴄᴋ", callback_data="help"),
+           InlineKeyboardButton("🔒 ᴄʟᴏꜱᴇ", callback_data="close")
+       ]]               
+       await query.message.edit(
+           text=tg.WRITE,
            reply_markup=InlineKeyboardMarkup(buttons),
            disable_web_page_preview = True,
            parse_mode=enums.ParseMode.HTML     
