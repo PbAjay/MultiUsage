@@ -194,7 +194,7 @@ async def callback(client: Client, query: CallbackQuery):
        )    
     elif query.data == "about":       
        buttons = [[
-           InlineKeyboardButton("ᴏᴡɴᴇʀ", url=" t.me/MATRIX_TG"),
+           InlineKeyboardButton("ᴏᴡɴᴇʀ", url="t.me/MATRIX_TG"),
            InlineKeyboardButton("ᴅᴇᴠs", callback_data="source")  
            ],[        
            InlineKeyboardButton("⏮️ ʙᴀᴄᴋ", callback_data="start"),
