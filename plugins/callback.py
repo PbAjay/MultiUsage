@@ -52,7 +52,7 @@ async def callback(client: Client, query: CallbackQuery):
             InlineKeyboardButton('ꜰᴏɴᴛ', callback_data='fontstyle')            
             ],[
             InlineKeyboardButton('ᴄᴀʀʙᴏɴ', callback_data='carben'),
-            InlineKeyboardButton('ꜰᴜɴ ɢᴀᴍᴇ', callback_data='fun')                      
+            InlineKeyboardButton('sᴏɴɢ', callback_data='song')                      
             ],[
             InlineKeyboardButton('⏮️ ʙᴀᴄᴋ', callback_data='start'),           
         ]]
@@ -80,6 +80,17 @@ async def callback(client: Client, query: CallbackQuery):
        ]]               
        await query.message.edit(
            text=tg.LOGO,
+           reply_markup=InlineKeyboardMarkup(buttons),
+           disable_web_page_preview = True,
+           parse_mode=enums.ParseMode.HTML     
+       )                 
+    elif query.data == "song":
+       buttons = [[
+           InlineKeyboardButton("⏮️ ʙᴀᴄᴋ", callback_data="help"),
+           InlineKeyboardButton("🔒 ᴄʟᴏꜱᴇ", callback_data="close")
+       ]]               
+       await query.message.edit(
+           text=tg.SONG,
            reply_markup=InlineKeyboardMarkup(buttons),
            disable_web_page_preview = True,
            parse_mode=enums.ParseMode.HTML     
