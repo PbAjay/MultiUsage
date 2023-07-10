@@ -41,15 +41,15 @@ async def callback(client: Client, query: CallbackQuery):
             ],[
             InlineKeyboardButton('ᴛᴇxᴛ ᴛᴏ ᴠᴏɪᴄᴇ', callback_data='tts'),
             InlineKeyboardButton('ʟʏʀɪᴄs', callback_data='lyrics'),
-            InlineKeyboardButton('yᴏᴜᴛᴜʙᴇ ᴅʟ', callback_data='ytdl')
+            InlineKeyboardButton('ʏᴏᴜᴛᴜʙᴇ ᴅʟ', callback_data='ytdl')
             ],[
             InlineKeyboardButton('ᴩʜᴏᴛᴏ ᴛᴏᴏʟ', callback_data='phediter'),
             InlineKeyboardButton('ʀᴇᴘᴏ', callback_data='repo'),
             InlineKeyboardButton('ᴡʀɪᴛᴇ', callback_data='write')
             ],[
-            InlineKeyboardButton('ꜱᴛɪᴄᴋᴇʀ ᴛᴏᴏʟ', callback_data='stickertool'),
+            InlineKeyboardButton('ꜱᴛɪᴄᴋᴇʀ', callback_data='stickertool'),
             InlineKeyboardButton('ᴜʀʟ sʜᴏʀᴛ', callback_data='url'),
-            InlineKeyboardButton('ꜰᴏɴᴛ ꜱᴛyʟᴇ', callback_data='fontstyle')            
+            InlineKeyboardButton('ꜰᴏɴᴛ', callback_data='fontstyle')            
             ],[
             InlineKeyboardButton('ᴄᴀʀʙᴏɴ', callback_data='carben'),
             InlineKeyboardButton('ꜰᴜɴ ɢᴀᴍᴇ', callback_data='fun')                      
