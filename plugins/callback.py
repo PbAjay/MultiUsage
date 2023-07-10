@@ -40,7 +40,7 @@ async def callback(client: Client, query: CallbackQuery):
             InlineKeyboardButton('ᴛᴇʟᴇɢʀᴀᴩʜ', callback_data='tgraph')
             ],[
             InlineKeyboardButton('ᴛᴇxᴛ ᴛᴏ ᴠᴏɪᴄᴇ', callback_data='tts'),
-            InlineKeyboardButton('ʟʏʀɪᴄs', callback_data='lyrics')
+            InlineKeyboardButton('ʟʏʀɪᴄs', callback_data='lyrics'),
             InlineKeyboardButton('yᴏᴜᴛᴜʙᴇ ᴅʟ', callback_data='ytdl')
             ],[
             InlineKeyboardButton('ᴩʜᴏᴛᴏ ᴛᴏᴏʟ', callback_data='phediter'),
@@ -188,7 +188,7 @@ async def callback(client: Client, query: CallbackQuery):
        )    
     elif query.data == "about":       
        buttons = [[
-           InlineKeyboardButton("ᴏᴡɴᴇʀ", url=" t.me/MATRIX_TG")
+           InlineKeyboardButton("ᴏᴡɴᴇʀ", url=" t.me/MATRIX_TG"),
            InlineKeyboardButton("ᴅᴇᴠs", callback_data="source")  
            ],[        
            InlineKeyboardButton("⏮️ ʙᴀᴄᴋ", callback_data="start"),
