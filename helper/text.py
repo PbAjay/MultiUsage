@@ -16,29 +16,14 @@ Eg:- Telegarph, Channel ID, Image editor etc... """
 ║╰━━━━━━━━━━━━━━━➣
 ╚══════════════════❍ """
 
-    HELP = """𝙷𝙴𝚁𝙴 𝙸𝚂 𝙼𝚈 𝙷𝙴𝙻𝙿 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂."""
+    HELP = """ʜᴇʀᴇ ɪs ᴍʏ ʜᴇʟᴘ ᴄᴏᴍᴍᴀɴᴅs"""
 
-    INFO = """◉ just send /id or info to get your tg id & info 🍁
+    INFO = """ɪᴜsᴛ sᴇɴᴅ /id ᴏʀ ɪɴғᴏ ᴛᴏ ɢᴇᴛ ʏᴏᴜʀ ᴛɢ ɪᴅ & ɪɴғᴏ 🍁
 
-◉ /id or /info - Reply To Any media to get media id
+/id ᴏʀ /info ʀᴇᴘʟʏ ᴛᴏ ᴀɴʏ ᴍᴇᴅɪᴀ ᴛᴏ ɢᴇᴛ ᴍᴇᴅɪᴀ ɪᴅ
 
-◉ send channel last message with forwerd tag to get the channel id 
+sᴇɴᴅ ᴄʜᴀɴɴᴇʟ ʟᴀsᴛ ᴍᴇssᴀɢᴇ ᴡɪᴛʜ ғᴏʀᴡᴇʀᴅ ᴛᴀɢ ᴛᴏ ɢᴇᴛ ᴛʜᴇ ᴄʜᴀɴɴᴇʟ ɪᴅ """
 
-/id & /info  this 2 command is same 😉
-media = [photo, video, audio, documents, sticker]"""
-   
-    FUN = """<b><u>JUST TEST THIS COMMANDS 😉</u></b>
-
-◉ /runs         
-◉ /ikka      
-◉ /dice     
-◉ /arrow    
-◉ /goal    
-◉ /luck    
-◉ /throw     
-◉ /bowling  
-◉ /tenpins  """
-   
     CHANNEL_ID = "--"
 
     LYRICS_TXT = """<b>ʜᴇʟᴩ: ʟʏʀɪᴄꜱ</b>
