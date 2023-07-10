@@ -1,6 +1,6 @@
 from pykeyboard import InlineKeyboard
 from pyrogram.types import InlineKeyboardButton
-from utils.functions import get_urls_from_text
+from plugins.functions.function import get_urls_from_text
 
 def keyboard(buttons_list, row_width: int = 2):
     buttons = InlineKeyboard(row_width=row_width)
