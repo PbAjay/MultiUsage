@@ -41,13 +41,19 @@ media = [photo, video, audio, documents, sticker]"""
    
     CHANNEL_ID = "--"
 
-    TELE = """<b>▫️HELP: Telegraph▪️</b>
+    LYRICS_TXT = """<b>ʜᴇʟᴩ: ʟʏʀɪᴄꜱ</b>
+ᴛʜɪꜱ ꜰᴇᴀᴛᴜʀᴇ ʜᴇʟᴩꜱ ʏᴏᴜ ᴛᴏ ꜰɪɴᴅ ꜱᴏɴɢꜱ ʟʏʀɪᴄꜱ
 
-Do as you wish with graph.org module!
+<b>ᴄᴏᴍᴍᴀɴᴅꜱ ᴀɴᴅ ᴜꜱᴀɢᴇ:</b>
+• /lyrics - <code>ʀᴇᴩʟʏ ᴛʜɪꜱ ᴄᴏᴍᴍᴀɴᴅ ᴛᴏ ᴀɴʏ ꜱᴏɴɢ ɴᴀᴍᴇ</code>"""
 
-</b>USAGE:</b>
-◉ /telegraph - reply to below 5Mb media to get telegraph link💯 """
+    TELE_TXT = """<b>ʜᴇʟᴩ: ᴛᴇʟᴇɢʀᴀᴩʜ</b>
+     
+ᴅᴏ ᴀꜱ ʏᴏᴜ ᴡɪꜱʜ ᴡɪᴛʜ graph.org ᴍᴏᴅᴜʟᴇ
 
+</b>ᴄᴏᴍᴍᴀɴᴅꜱ ᴀɴᴅ ᴜꜱᴀɢᴇ:</b> 
+• /telegraph - ꜱᴇɴᴅ ᴍᴇ ᴛʜɪꜱ ᴄᴏᴍᴍᴀɴᴅ ʀᴇᴩʟʏ ᴡɪᴛʜ ᴀ ᴩɪᴄᴛᴜʀᴇ  ᴏʀ ᴠɪᴅᴇᴏ ᴜɴᴅᴇʀ 𝟻ᴍʙ"""
+    
     PASTE = """Help: <b>Paste</b>
 
 Paste some texts or documents on a website!
