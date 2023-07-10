@@ -196,12 +196,6 @@ async def callback(client: Client, query: CallbackQuery):
            parse_mode=enums.ParseMode.HTML        
        )            
     elif query.data == "source":
-       users = await get("https://t.me/MLZ_BOTZ")
-       list_of_users = ""
-       count = 1
-       for user in users:
-           list_of_users += (f"**{count}.** [{user['login']}]({user['html_url']})\n")       
-           count += 1
        buttons = [[
            InlineKeyboardButton("👨‍💻 ᴅᴇᴠ 1", url="https://t.me/AJAYxTG"),
            InlineKeyboardButton("👨‍💻 ᴅᴇᴠ 2", url="https://t.me/MATRIX_TG")
