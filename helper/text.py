@@ -28,13 +28,13 @@ sᴇɴᴅ ᴄʜᴀɴɴᴇʟ ʟᴀsᴛ ᴍᴇssᴀɢᴇ ᴡɪᴛʜ ғᴏʀᴡᴇ�
 
     CHANNEL_ID = "--"
 
-    LYRICS_TXT = """<b>ʜᴇʟᴩ: ʟʏʀɪᴄꜱ</b>
+    LYRICS = """<b>ʜᴇʟᴩ: ʟʏʀɪᴄꜱ</b>
 ᴛʜɪꜱ ꜰᴇᴀᴛᴜʀᴇ ʜᴇʟᴩꜱ ʏᴏᴜ ᴛᴏ ꜰɪɴᴅ ꜱᴏɴɢꜱ ʟʏʀɪᴄꜱ
 
 <b>ᴄᴏᴍᴍᴀɴᴅꜱ ᴀɴᴅ ᴜꜱᴀɢᴇ:</b>
 • /lyrics - <code>ʀᴇᴩʟʏ ᴛʜɪꜱ ᴄᴏᴍᴍᴀɴᴅ ᴛᴏ ᴀɴʏ ꜱᴏɴɢ ɴᴀᴍᴇ</code>"""
 
-    TELE_TXT = """<b>ʜᴇʟᴩ: ᴛᴇʟᴇɢʀᴀᴩʜ</b>
+    TELE = """<b>ʜᴇʟᴩ: ᴛᴇʟᴇɢʀᴀᴩʜ</b>
      
 ᴅᴏ ᴀꜱ ʏᴏᴜ ᴡɪꜱʜ ᴡɪᴛʜ graph.org ᴍᴏᴅᴜʟᴇ
 
@@ -64,7 +64,7 @@ Convert sticker to photo & create sticker pake & find sticker id.....
 ◉ /kang - Reply To Sticker or PNG file to pake sticker 
 ◉ /id or /info - Reply To Any Sticker or media to get id"""
    
-    CARBON_TXT = """<b>ʜᴇʟᴩ: ᴄᴀʀʙᴏɴ</b>
+    CARBON = """<b>ʜᴇʟᴩ: ᴄᴀʀʙᴏɴ</b>
 ᴄᴀʀʙᴏɴ ɪꜱ ᴀ ꜰᴇᴀᴛᴜʀᴇ ᴛᴏ ᴍᴀᴋᴇ ᴛʜᴇ ɪᴍᴀɢᴇ ᴀꜱ ꜱʜᴏᴡɴ ɪɴ ᴛʜᴇ ᴛᴏᴩ ᴡɪᴛʜ ʏᴏᴜʀ ᴛᴇxᴛꜱ
 
 <b>ᴄᴏᴍᴍᴀɴᴅꜱ ᴀɴᴅ ᴜꜱᴀɢᴇ:</b>
@@ -92,7 +92,7 @@ To Make Square Logo -  /logosq Your Name
 <code>/mp4 https://youtu.be/*******</code>
 <code>/video https://youtu.be/*****</code>  """
   
-    FONT_TXT = """<b>ʜᴇʟᴩ: ꜰᴏɴᴛ</b>
+    FONT = """<b>ʜᴇʟᴩ: ꜰᴏɴᴛ</b>
 ꜰᴏɴᴛ ɪꜱ ᴀ ᴍᴏᴅᴜʟᴇ ꜰᴏʀ ᴍᴀᴋᴇ ʏᴏᴜʀ ᴛᴇxᴛ ꜱᴛʏʟɪꜱʜ
 ꜰᴏʀ ᴜꜱᴇ ᴛʜᴀᴛ ꜰᴇᴀᴛᴜʀᴇ ᴛʏᴩᴇ /font <your text> ᴛʜᴇɴ ʏᴏᴜʀ ᴛᴇxᴛ ʀᴇᴀᴅʏ"""
     
