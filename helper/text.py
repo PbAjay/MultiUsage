@@ -75,7 +75,7 @@ Convert sticker to photo & create sticker pake & find sticker id.....
 ◉ /kang - Reply To Sticker or PNG file to pake sticker 
 ◉ /id or /info - Reply To Any Sticker or media to get id"""
    
-    CARBON = """<b>ʜᴇʟᴩ: ᴄᴀʀʙᴏɴ</b>
+    CARB_TXT = """<b>ʜᴇʟᴩ: ᴄᴀʀʙᴏɴ</b>
 ᴄᴀʀʙᴏɴ ɪꜱ ᴀ ꜰᴇᴀᴛᴜʀᴇ ᴛᴏ ᴍᴀᴋᴇ ᴛʜᴇ ɪᴍᴀɢᴇ ᴀꜱ ꜱʜᴏᴡɴ ɪɴ ᴛʜᴇ ᴛᴏᴩ ᴡɪᴛʜ ʏᴏᴜʀ ᴛᴇxᴛꜱ
 
 <b>ᴄᴏᴍᴍᴀɴᴅꜱ ᴀɴᴅ ᴜꜱᴀɢᴇ:</b>
