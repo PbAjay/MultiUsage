@@ -40,13 +40,6 @@ sᴇɴᴅ ᴄʜᴀɴɴᴇʟ ʟᴀsᴛ ᴍᴇssᴀɢᴇ ᴡɪᴛʜ ғᴏʀᴡᴇ�
 
 </b>ᴄᴏᴍᴍᴀɴᴅꜱ ᴀɴᴅ ᴜꜱᴀɢᴇ:</b> 
 • /telegraph - ꜱᴇɴᴅ ᴍᴇ ᴛʜɪꜱ ᴄᴏᴍᴍᴀɴᴅ ʀᴇᴩʟʏ ᴡɪᴛʜ ᴀ ᴩɪᴄᴛᴜʀᴇ  ᴏʀ ᴠɪᴅᴇᴏ ᴜɴᴅᴇʀ 𝟻ᴍʙ"""
-    
-    PASTE = """Help: <b>Paste</b>
-
-Paste some texts or documents on a website!
-
-<b>Commands and Usage:</b>
-• /paste - Reply To A Message With /paste """
 
     IMAGE = """➤ 𝐇𝐞𝐥𝐩: Iᴍᴀɢᴇ
 
@@ -70,12 +63,12 @@ Convert sticker to photo & create sticker pake & find sticker id.....
 <b>ᴄᴏᴍᴍᴀɴᴅꜱ ᴀɴᴅ ᴜꜱᴀɢᴇ:</b>
 • /carbon - <code>ꜰᴏʀ ᴜꜱɪɴɢ ᴛʜɪꜱ ᴄᴏᴍᴍᴀɴᴅ ʀᴇᴩʟʏ ᴀ ᴛᴇxᴛ ᴡɪᴛʜ ᴛʜɪꜱ ᴄᴏᴍᴍᴀɴᴅ</code>"""
     
-    LOGO = """To Make Logo - /logo Your Name
-To Make Square Logo -  /logosq Your Name
+    LOGO = """ᴛᴏ ᴍᴀᴋᴇ ʟᴏɢᴏ - /logo ʏᴏᴜʀ ɴᴀᴍᴇ
+ᴛᴏ ᴍᴀᴋᴇ sǫᴜᴀʀᴇ ʟᴏɢᴏ  /logosq ʏᴏᴜʀ ɴᴀᴍᴇ
 
-♻️ Example:
-/logo BETA
-/logosq MKN  """
+ᴇxᴀᴍᴘʟᴇ
+/logo MLZ
+/logosq Ajay  """
 
     YTDL = """<b>𝚈𝙾𝚄𝚃𝚄𝙱𝙴 𝙳𝙾𝚆𝙽𝙻𝙾𝙰𝙳 𝙼𝙾𝙳𝚄𝙻𝙴</b>
 
