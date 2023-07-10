@@ -5,3 +5,4 @@ youtube-search
 youtube-search-python
 yt-dlp
 pyshorteners
+youtube_dl
