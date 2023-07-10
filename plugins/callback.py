@@ -35,12 +35,12 @@ async def callback(client: Client, query: CallbackQuery):
        )
     elif query.data == "help":
         buttons = [[                           
-            InlineKeyboardButton('🍁 ɪɴꜰᴏ & ɪᴅ 🍁', callback_data='info')
-            ],[
-            InlineKeyboardButton('ʟᴏɢᴏ ᴍᴀᴋᴇʀ', callback_data='logomake'),            
+            InlineKeyboardButton('ʟᴏɢᴏ ᴍᴀᴋᴇʀ', callback_data='logomake'), 
+            InlineKeyboardButton('ɪɴꜰᴏ & ɪᴅ', callback_data='info'),
             InlineKeyboardButton('ᴛᴇʟᴇɢʀᴀᴩʜ', callback_data='tgraph')
             ],[
             InlineKeyboardButton('ᴛᴇxᴛ ᴛᴏ ᴠᴏɪᴄᴇ', callback_data='tts'),
+            InlineKeyboardButton('ʟʏʀɪᴄs', callback_data='lyrics')
             InlineKeyboardButton('yᴏᴜᴛᴜʙᴇ ᴅʟ', callback_data='ytdl')
             ],[
             InlineKeyboardButton('ᴩʜᴏᴛᴏ ᴛᴏᴏʟ', callback_data='phediter'),
@@ -75,9 +75,14 @@ async def callback(client: Client, query: CallbackQuery):
        buttons = [[
            InlineKeyboardButton("⏮️ ʙᴀᴄᴋ", callback_data="help"),
            InlineKeyboardButton("🔒 ᴄʟᴏꜱᴇ", callback_data="close")
-       ]]               
+       ]]              
+     elif query.data == "lyrics":
+       buttons = [[
+           InlineKeyboardButton("⏮️ ʙᴀᴄᴋ", callback_data="help"),
+           InlineKeyboardButton("🔒 ᴄʟᴏꜱᴇ", callback_data="close")
+       ]]              
        await query.message.edit(
-           text=tg.LOGO,
+           text=tg.LYRICS,
            reply_markup=InlineKeyboardMarkup(buttons),
            disable_web_page_preview = True,
            parse_mode=enums.ParseMode.HTML   
