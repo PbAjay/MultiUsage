@@ -105,10 +105,10 @@ To Make Square Logo -  /logosq Your Name
 <code>/mp4 https://youtu.be/*******</code>
 <code>/video https://youtu.be/*****</code>  """
   
-    FONT = """☾︎𝗛𝗘𝗟𝗣 𝗙𝗢𝗥 𝗙𝗢𝗡𝗧𝗦☽︎
-𝙵𝙾𝙽𝚃 𝙸𝚂 𝙰 𝙼𝙾𝙳𝚄𝙻𝙴 𝙵𝙾𝚁 𝙼𝙰𝙺𝙴 𝚈𝙾𝚄𝚁 𝚃𝙴𝚇𝚃 𝚂𝚃𝚈𝙻𝙸𝚂𝙷.
-𝙵𝙾𝚁 𝚄𝚂𝙴 𝚃𝙷𝙰𝚃 𝙵𝙴𝚄𝚃𝚄𝚁𝙴 𝚃𝚈𝙿𝙴 /font <your text> 𝚃𝙷𝙴𝙽 𝚈𝙾𝚄𝚁 𝚃𝙴𝚇𝚃 𝙸𝚂 𝚁𝙴𝙰𝙳𝚈."""
- 
+    FONT_TXT = """<b>ʜᴇʟᴩ: ꜰᴏɴᴛ</b>
+ꜰᴏɴᴛ ɪꜱ ᴀ ᴍᴏᴅᴜʟᴇ ꜰᴏʀ ᴍᴀᴋᴇ ʏᴏᴜʀ ᴛᴇxᴛ ꜱᴛʏʟɪꜱʜ
+ꜰᴏʀ ᴜꜱᴇ ᴛʜᴀᴛ ꜰᴇᴀᴛᴜʀᴇ ᴛʏᴩᴇ /font <your text> ᴛʜᴇɴ ʏᴏᴜʀ ᴛᴇxᴛ ʀᴇᴀᴅʏ"""
+    
     TTS = """Help: <b> TTS 🎤 module:</b>
 
 Translate text to speech
@@ -121,12 +121,6 @@ Translate text to speech
 • These commands works on both pm and group.
 • this can translate texts to 200+ languages."""
 
-    SOURCE = """[Github](https://github.com/Itz-JEOL/TG-MULTI-BOT) | [Updates](t.me/beta_botz)
-```----------------
-| Contributors |
-----------------```
-
-{dev} """
 
     INFO_TXT = """<i>
 <u>👁️‍🗨️YOUR DETAILS</u>
