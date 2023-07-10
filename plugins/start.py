@@ -2,7 +2,7 @@ import pyrogram, asyncio, random, time, os
 from pyrogram import Client, filters, enums
 from pyrogram.types import *
 from helper.database import add_user
-from variables import PICS
+from info import PICS
 from helper.text import txt
 
 @Client.on_message(filters.private & filters.command("start"))
