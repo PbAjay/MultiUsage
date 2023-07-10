@@ -10,7 +10,7 @@ async def start_message(bot, message):
     await add_user(bot, message)    
     button=InlineKeyboardMarkup([[
         InlineKeyboardButton("📯 ᴜᴩᴅᴀᴛᴇꜱ", url="https://t.me/MLZ_BOTZ"),
-        InlineKeyboardButton("🍁 ꜱᴜᴩᴩᴏʀᴛ ", url="https://t.me/MLZ_SUPPORT_BOTZ")
+        InlineKeyboardButton("🍁 ꜱᴜᴩᴩᴏʀᴛ ", url="https://t.me/MLZ_BOTZ_SUPPORT")
         ],[            
         InlineKeyboardButton("ℹ️ ʜᴇʟᴩ", callback_data="help"),
         InlineKeyboardButton("📡 ᴀʙᴏᴜᴛ", callback_data="about") 
@@ -42,7 +42,7 @@ async def media_info(bot, m):
           if md.text:
               await m.reply_text("**ʜᴇʏ ᴍᴀɴ ʀᴇᴘʟʏ ᴡɪᴛʜ ( ᴘʜᴏᴛᴏ, ᴠɪᴅᴇᴏ, sᴛɪᴄᴋᴇʀ, ᴅᴏᴄᴜᴍᴇɴᴛ, ᴇᴛᴄ...) ᴏɴʟʏ ᴍᴇᴅɪᴀ **")  
           else:
-              await m.reply_text("[404] Error..🤖")                                                                                      
+              await m.reply_text("[404] ᴇʀʀᴏʀ...")                                                                                      
        except Exception as e:
           print(e)
           await m.reply_text(f"[404] ᴇʀʀᴏʀ {e}")
@@ -50,7 +50,7 @@ async def media_info(bot, m):
     if not md:
         buttons = [[
             InlineKeyboardButton("📯 ᴜᴩᴅᴀᴛᴇꜱ", url="https://t.me/MLZ_BOTZ"),
-            InlineKeyboardButton("🍁 ꜱᴜᴩᴩᴏʀᴛ ", url="https://t.me/MLZ_SUPPORT_BOTZ")
+            InlineKeyboardButton("🍁 ꜱᴜᴩᴩᴏʀᴛ ", url="https://t.me/MLZ_BOTZ_SUPPORT")
         ]]       
         mkn = await m.reply("please wait....")
         if ff.photo:
